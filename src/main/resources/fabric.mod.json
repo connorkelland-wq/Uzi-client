@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "uzi-client",
+  "version": "${version}",
+  "name": "Uzi Client",
+  "description": "Free cam, suspicious chunk finder, and diamond ore counter.",
+  "authors": ["Connor"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.connor.uziclient.UziClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1"
+  }
+}
